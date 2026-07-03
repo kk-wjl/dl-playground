@@ -12,7 +12,7 @@ dl-playground/
 │   └── runs/                 # Generated outputs and reconstruction samples
 ├── data/
 │   ├── celeba/               # CelebA images
-│   ├── cifar10/              # CIFAR-10 archive and extracted files
+│   ├── cifar10/              # CIFAR-10 
 │   └── mnist/                # MNIST data
 ├── src/
 │   ├── classical/

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Environments
+.env
+.venv/
+venv/
+
+# Datasets
+data/celeba/
+data/mnist/
+data/cifar10/
+
+# Generated artifacts
+artifacts/checkpoints/
+artifacts/runs/

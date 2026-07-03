@@ -1,0 +1,23 @@
+[project]
+name = "dl-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jialan Wu", email = "2890343833@qq.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+  "torch",
+  "torchvision",
+  "matplotlib",
+  "pillow",
+  "tqdm",
+]
+
+[project.scripts]
+dl-playground = "dl_playground:main"
+
+[build-system]
+requires = ["uv_build>=0.11.6,<0.12.0"]
+build-backend = "uv_build"
