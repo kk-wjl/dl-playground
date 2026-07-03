@@ -61,13 +61,6 @@ uv run python -m src.generative.diffusion.train
 uv run python -m src.transformer.train
 ```
 
-## Project Rules
-
-- Store datasets only in `data/`.
-- Store checkpoints and generated outputs only in `artifacts/`.
-- Do not keep cache files such as `__pycache__/`, `.DS_Store`, or `.ipynb_checkpoints/`.
-- Avoid creating ad hoc local output folders inside source packages.
-
 ## References
 
 - Transformer: [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
